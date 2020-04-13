@@ -1,0 +1,50 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+
+}
+
+
+.home-bg, .services-bg, .projects-bg{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.80;
+    background-repeat: no-repeat;
+
+    /* parralax effect */
+    background-attachment: fixed;
+}
+
+
+.home-bg{
+    background-image: url(../images/action-blur-bulb-dark-355904.jpg);
+    min-height: 100%;
+}
+
+.services-bg{
+    background-image: url(../images/silver-and-black-laptop-computer-1229861.jpg);
+    min-height: 500px;
+}
+
+.projects-bg{
+    background-image: url(../images/background.jpg);
+    min-height: 500px;
+}
+
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.bg-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
