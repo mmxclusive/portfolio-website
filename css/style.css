@@ -9,6 +9,27 @@ body, html{
 
 }
 
+/* Navbar */
+.navbar{
+
+}
+.navbar-brand{
+    color: white !important;
+    font-weight: 700;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 700;
+}
+
+.nav-link:hover{
+    color: brown !important;
+    
+}
+
+
+/* Background Image Styles */
 
 .home-bg, .services-bg, .projects-bg{
     position: relative;
@@ -24,6 +45,7 @@ body, html{
 
 .home-bg{
     background-image: url(../images/action-blur-bulb-dark-355904.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/action-blur-bulb-dark-355904.jpg); */
     min-height: 100%;
 }
 
@@ -38,13 +60,30 @@ body, html{
 }
 
 
-.bg-light{
+.light-bg{
     background-color: #f4f4f4;
     color: #666;
+
 }
 
-.bg-dark{
+.dark-bg{
     background-color: #282e34;
     color: #ddd;
+}
+
+
+/* Content Styles */
+
+.section-content{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutme-text{
+    text-align: center;
 }
 

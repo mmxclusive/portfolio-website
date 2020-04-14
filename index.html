@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css\style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/166184fa40.js" crossorigin="anonymous"></script>
 </head>
-<body>
+
+
+<body data-spy="scroll" data-target="#scroll-spy" data-offset="0">
 <!-- Start Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav id="scroll-spy" class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" href="#">MMXclusive</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,16 +45,43 @@
 
 <!-- Start Home Page -->
 <div id="home" class="home-bg">
-    <h1>Welcome to MMXclusive</h1>
-    <h4>My name is Muhammed Adelodun</h4>
-    <p>I am a Full Stack Web developer, Web Designer, Professional Photographer & Filmmaker</p>
+    <div class="section-content">
+        <h1>Welcome to MMXclusive</h1>
+        <h3>I'm <span class="typing-effect"></span></h3>
+        <p>I am a Full Stack Web developer, Web Designer, Professional Photographer & Filmmaker</p>
+    </div>
 </div>
 
 <!-- End Home Page -->
 
 <!-- Start Amout me -->
-<div id="about" class="bg-light">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam vero praesentium aliquid voluptatum sunt quia natus laboriosam facilis quae explicabo totam velit quam debitis perspiciatis officia distinctio corrupti eligendi veritatis, nisi voluptate et dicta minus tempore! Nihil omnis, quae asperiores quas alias dolore molestiae amet cupiditate sequi sit architecto velit adipisci iusto nostrum temporibus facilis ipsum quia a! Reprehenderit illum consectetur cumque sint? Minima amet dolorem quo repellendus nulla dignissimos at fugiat nihil omnis perspiciatis dolorum repellat deserunt, pariatur cupiditate illum, qui laboriosam voluptates aliquam. Aut vero cupiditate nostrum numquam.s, nisi voluptate et dicta minus tempore! Nihil omnis, quae asperiores quas alias dolore molestiae amet cupiditate sequi sit architecto velit adipisci iusto nostrum temporibus facilis ipsum quia a! Reprehenderit illum consectetur cumque sint? Minima amet dolorem quo repellendus nulla dignissimos at fugiat nihil omnis perspiciatis dolorum repellat deserunt, pariatur cupiditate illum, qui laboriosam voluptates aliquam. Aut vero cupiditate nostrum numquam</p>
+<div id="about" class="light-bg">
+    <div class="row">
+        <div class="col-8 aboutme-text">
+            <h2>About Me</h2>
+            <h4>Hello!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ea, laboriosam non porro labore quas modi facilis, harum ipsum neque exercitationem odit minima iure rem! Id minima </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestias, corporis officia porro eius obcaecati aliquid numquam sequi natus. Deserunt quidem praesentium repellendus inventore nisi.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident excepturi necessitatibus, nemo magni sapiente hic, inventore fugit voluptas asperiores saepe quia ea. Reprehenderit libero alias nam.</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero consequatur delectus est ducimus, ratione enim architecto temporibus ea sit. Delectus nisi voluptas, laboriosam nobis nemo autem expedita. Eligendi, distinctio dicta cupiditate officia non eius dolores magni natus quisquam libero.</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam reiciendis perspiciatis eius dolorum quas voluptas soluta! Doloremque, accusamus!</p>
+            
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fab fa-instagram fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href=""><i class="fab fa-youtube fa-2x"></i></i></a></li>
+            </ul>
+
+        </div>
+        <div class="col-4 mypic">
+            <img src="images/mypic.jpg" class="img-fluid img-thumbnail" alt="Profile Picture">
+        </div>
+    </div>
 
 </div>
 <!-- End About me -->
@@ -64,7 +94,7 @@
 <!-- End Servives -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="bg-dark">
+<div id="testimonials" class="dark-bg">
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet adipisci nam quis aperiam ea molestiae veritatis, delectus enim voluptatum nemo quibusdam veniam aliquam earum ratione sequi nesciunt, inventore accusamus. Magni maiores, harum atque reiciendis, corrupti aut asperiores quo fugiat et totam officia est aliquid qui accusantium. Laboriosam, eius culpa ullam animi vitae in? Perferendis, a error. Ipsa ex maxime corporis est blanditiis, enim nobis quis, consequatur doloremque, iusto facilis architecto exercitationem perspiciatis delectus aperiam repellendus harum aspernatur deleniti sit quaerat ut distinctio voluptatem molestiae vel? Delectus minima ratione accusantium deserunt nulla reiciendis inventore repellat soluta, doloribus officia cupiditate modi.</p>
 
 </div>
@@ -78,14 +108,14 @@
 <!-- End Projects -->
 
 <!-- Start Contact -->
-<div id="contact" class="bg-light">
+<div id="contact" class="light-bg">
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum optio illo earum ullam eius vitae vero aliquam, placeat assumenda, ipsam suscipit doloribus quos sunt. Asperiores amet voluptates laboriosam non fugiat! Aliquam excepturi eum quidem omnis enim facere amet, delectus eos quisquam at voluptates eius quae a minima vel in praesentium impedit consequuntur error ab doloribus voluptatem culpa. Recusandae temporibus exercitationem quisquam illo. Odio assumenda recusandae totam saepe tempora magnam adipisci architecto, eveniet explicabo debitis praesentium et sunt incidunt dolore mollitia dolorem ducimus eaque ipsam voluptate repudiandae quo enim. Architecto libero illum voluptates consectetur ut. Fugit magnam cumque quo necessitatibus ut reprehenderit odit maiores minus, eaque non, nam maxime natus similique quidem labore obcaecati. Neque dolor nesciunt delectus non optio autem.</p>
 
 </div>
 <!-- End Contact -->
 
 <!-- Start Thank you -->
-<div class="home-bg">
+<div class="home-bg section-content">
     <h4>Thank You!</h4>
 </div>
 <!-- End Thank you -->
@@ -93,5 +123,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="lib/typed.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
