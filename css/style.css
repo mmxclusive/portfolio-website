@@ -9,6 +9,11 @@ body, html{
 
 }
 
+/* body{
+    overflow-x: hidden;
+} */
+
+
 /* Navbar */
 .navbar{
 
@@ -23,6 +28,7 @@ body, html{
     font-weight: 700;
 }
 
+.nav-link.active,
 .nav-link:hover{
     color: brown !important;
     
@@ -82,6 +88,7 @@ body, html{
     text-align: center;
     justify-content: center;
 }
+
 
 .aboutme-text{
     text-align: center;
