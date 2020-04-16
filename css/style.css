@@ -14,6 +14,7 @@ body, html{
 } */
 
 
+
 /* Navbar */
 .navbar{
 
@@ -80,6 +81,16 @@ body, html{
 
 /* Content Styles */
 
+.navbar-brand{
+    font-size: x-large !important;
+}
+
+.nav-item a{
+    margin-left: 0.7rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+
 .section-content{
     color: white;
     height: 100vh;
@@ -89,8 +100,45 @@ body, html{
     justify-content: center;
 }
 
-
-.aboutme-text{
-    text-align: center;
+.section-content h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
 }
 
+.section-content h3{
+    font-size: 2rem;
+    color:lime;
+    margin-bottom: 1rem;
+}
+
+
+/* About me Section */
+
+.aboutme-text h4{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.aboutme-text p{
+    padding-left: 1rem;
+}
+
+.aboutme-text ul{
+    padding-top: 1rem;
+}
+
+
+/* Services */
+
+#services .service{
+    color: white;
+}
+
+.service img{
+    max-width: 100%;
+    max-height: 100%;
+    border: white 0.5rem solid;
+    display: block;
+    margin: 0 auto;
+
+}
