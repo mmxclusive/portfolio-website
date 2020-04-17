@@ -16,9 +16,7 @@ body, html{
 
 
 /* Navbar */
-.navbar{
 
-}
 .navbar-brand{
     color: white !important;
     font-weight: 700;
@@ -31,7 +29,7 @@ body, html{
 
 .nav-link.active,
 .nav-link:hover{
-    color: brown !important;
+    color: lime !important;
     
 }
 
@@ -42,7 +40,8 @@ body, html{
     position: relative;
     background-position: center;
     background-size: cover;
-    opacity: 0.80;
+    /* opacity: 0.80; */
+
     background-repeat: no-repeat;
 
     /* parralax effect */
@@ -50,19 +49,20 @@ body, html{
 }
 
 
+
 .home-bg{
-    background-image: url(../images/action-blur-bulb-dark-355904.jpg);
-    /* background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/action-blur-bulb-dark-355904.jpg); */
+    /* background-image: url(../images/action-blur-bulb-dark-355904.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(../images/action-blur-bulb-dark-355904.jpg);
     min-height: 100%;
 }
 
 .services-bg{
-    background-image: url(../images/silver-and-black-laptop-computer-1229861.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/silver-and-black-laptop-computer-1229861.jpg);
     min-height: 500px;
 }
 
 .projects-bg{
-    background-image: url(../images/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
     min-height: 500px;
 }
 
@@ -73,10 +73,6 @@ body, html{
 
 }
 
-.dark-bg{
-    background-color: #282e34;
-    color: #ddd;
-}
 
 
 /* Content Styles */
@@ -132,13 +128,86 @@ body, html{
 
 #services .service{
     color: white;
+    margin-top: 2rem;
+    padding: 3rem;
 }
 
-.service img{
-    max-width: 100%;
-    max-height: 100%;
+.service h3{
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+    white-space: nowrap;
+}
+
+
+
+/* Landscape Image Cropping */
+.service .circular-landscape{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
     border: white 0.5rem solid;
-    display: block;
-    margin: 0 auto;
-
 }
+
+.service .circular-landscape img{
+    width: auto;
+    height: 100%;
+    margin-left: -100px;
+}
+
+/* Portrait Image Cropping */
+
+.service .circular-portrait{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.5rem solid;
+}
+
+.service .circular-portrait img{
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+}
+
+.retouch-img{
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.5rem solid;
+}
+
+.retouch-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* Services Button Styles */
+
+.service .btn{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    background-color: rgb(75, 214, 75);
+    font-weight: 600;
+}
+
+.service .btn:hover{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    background-color: rgb(37, 107, 37);
+    font-weight: 600;
+}
+
+
+
+/* Testimonials Styles */
+

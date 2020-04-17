@@ -68,10 +68,6 @@
 
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident excepturi necessitatibus, nemo magni sapiente hic, inventore fugit voluptas asperiores saepe quia ea. Reprehenderit libero alias nam.</p>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero consequatur delectus est ducimus, ratione enim architecto temporibus ea sit. Delectus nisi voluptas, laboriosam nobis nemo autem expedita. Eligendi, distinctio dicta cupiditate officia non eius dolores magni natus quisquam libero.</p>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam reiciendis perspiciatis eius dolorum quas voluptas soluta! Doloremque, accusamus!</p>
-            
             <ul class="list-inline">
                 <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f fa-2x"></i></a></li>
                 <li class="list-inline-item"><a href=""><i class="fab fa-twitter fa-2x"></i></a></li>
@@ -90,23 +86,35 @@
 
 <!-- Start Services -->
 <div id="services" class="services-bg">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-3 service">
                 <h3>Web Development</h3>
-                <img src="images/code-coder-coding-computer-270404.jpg" alt="">
+                <div class="circular-landscape">
+                    <img src="images/code-coder-coding-computer-270404.jpg" alt="">
+                </div>
+                <button type="button" class="btn btn-secondary btn-md">Visit Website</button>
             </div>
             <div class="col-md-3 service">
                 <h3>Photography</h3>
-                <img src="images/photo-studio-with-white-wooden-framed-wall-mirror-134469.jpg" alt="">
+                <div class="circular-landscape">
+                    <img src="images/photo-studio-with-white-wooden-framed-wall-mirror-134469.jpg" alt="">
+                </div>
+                <button type="button" class="btn btn-secondary btn-md">Visit Website</button>
             </div>
             <div class="col-md-3 service">
                 <h3>Videography</h3>
-                <img src="images\woman-standing-in-front-of-video-camera-2918590.jpg" alt="">
+                <div class="circular-portrait">
+                    <img src="images\woman-standing-in-front-of-video-camera-2918590.jpg" alt="">
+                </div>
+                <button type="button" class="btn btn-secondary btn-md">Visit Website</button>
             </div>
             <div class="col-md-3 service">
                 <h3>Retouching</h3>
-                <img src="images/Retouch.jpg" alt="">
+                <div class="retouch-img">
+                    <img src="images/Retouch.jpg" alt="">
+                </div>
+                <button type="button" class="btn btn-secondary btn-md">Visit Website</button>
             </div>
 
         </div>
@@ -115,11 +123,32 @@
 <!-- End Servives -->
 
 <!-- Start Testimonials -->
-<div id="testimonials" class="dark-bg">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet adipisci nam quis aperiam ea molestiae veritatis, delectus enim voluptatum nemo quibusdam veniam aliquam earum ratione sequi nesciunt, inventore accusamus. Magni maiores, harum atque reiciendis, corrupti aut asperiores quo fugiat et totam officia est aliquid qui accusantium. Laboriosam, eius culpa ullam animi vitae in? Perferendis, a error. Ipsa ex maxime corporis est blanditiis, enim nobis quis, consequatur doloremque, iusto facilis architecto exercitationem perspiciatis delectus aperiam repellendus harum aspernatur deleniti sit quaerat ut distinctio voluptatem molestiae vel? Delectus minima ratione accusantium deserunt nulla reiciendis inventore repellat soluta, doloribus officia cupiditate modi.</p>
-
+<div id="testimonials" class="light-bg">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="" class="d-block w-100" alt="...">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, magnam. Voluptatem facere perspiciatis, eum maxime repellendus eligendi earum nulla. Modi?</p>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
 </div>
 <!-- End Testimonials -->
+    
 
 <!-- Start Projects -->
 <div id="projects" class="projects-bg">
