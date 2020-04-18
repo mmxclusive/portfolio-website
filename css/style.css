@@ -9,9 +9,9 @@ body, html{
 
 }
 
-/* body{
+body{
     overflow-x: hidden;
-} */
+}
 
 
 
@@ -67,14 +67,6 @@ body, html{
 }
 
 
-.light-bg{
-    background-color: #f4f4f4;
-    color: #666;
-
-}
-
-
-
 /* Content Styles */
 
 .navbar-brand{
@@ -126,7 +118,9 @@ body, html{
 
 /* Services */
 
+
 #services .service{
+
     color: black;
     margin-top: 2rem;
     padding: 3rem;
@@ -211,4 +205,36 @@ body, html{
 
 
 /* Testimonials Styles */
+
+#testimonials{
+    color: black
+}
+
+
+
+.carousel-item{
+    padding: 80px;
+}
+
+.carousel-item .img-box{
+    width: 150px;
+    height: 150px;
+}
+
+.carousel-item .img-box img{
+
+    width: 100%;
+    height: 100%;
+    border: honeydew 0.1rem solid;
+    border-radius: 50%;
+
+}
+
+.carousel-item .client-comment{
+    width: 70%;
+    color: white;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+}
 
