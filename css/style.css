@@ -238,3 +238,23 @@ body{
     text-align: center;
 }
 
+/* Contact area styles */
+
+.contact-section{
+    color: white;
+    height: 100vh;
+}
+
+
+.contact-section h2{
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.full-name{
+    padding-bottom: 1rem;
+}
+
+.contact-detail{
+    padding-bottom: 1.5rem;
+}
