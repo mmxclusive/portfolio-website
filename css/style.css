@@ -51,7 +51,6 @@ body{
     position: relative;
     background-position: center;
     background-size: cover;
-    /* opacity: 0.80; */
 
     background-repeat: no-repeat;
 
@@ -113,6 +112,7 @@ body{
 }
 
 .aboutme-text ul{
+    color: lime;
     padding-top: 1rem;
 }
 
@@ -174,12 +174,6 @@ body{
 
 /* Testimonials Styles */
 
-#testimonials{
-    color: black
-}
-
-
-
 .carousel-item{
     padding: 80px;
 }
@@ -204,6 +198,15 @@ body{
     margin-top: 1rem;
     display: inline-block;
     text-align: center;
+}
+
+#testimonials .client-comment-underline{
+    width: 80%;
+    border-top: lime 1px solid;
+}
+
+#testimonials i{
+    color: lime;
 }
 
 /* Contact area styles */
@@ -250,10 +253,165 @@ body{
     color: lime;
 }
 
+
 /* Footer Styles */
 
 .footercontainer{
     color: white;
     background-color: rgb(15, 11, 11);
     text-align: center;
+}
+
+
+
+                /* ------- Media Queries ---------- */
+
+@media screen and (max-width: 767px) {
+
+    /* Home Page */
+
+    .section-content h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .section-content h3{
+        font-size: 1.5rem;
+        color:lime;
+        margin-bottom: 0.7rem;
+    }
+
+    #home p{
+        font-size: 1rem;
+    }
+
+
+    /* About me */
+
+    .aboutme-text ul{
+        font-size: 0.9rem;
+        padding-top: 1rem;
+    }
+    
+    #about .fab{
+        color: limegreen;
+    }
+    #about .fab:hover{
+        color: lime;
+    }
+
+
+    /*  Services  */
+
+    #services .service{
+        color: black;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .service h3{
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        white-space: nowrap;
+    }
+
+    /* Landscape Image Cropping */
+.service .circular-landscape{
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.3rem solid;
+
+}
+    
+    
+.service .circular-landscape img{
+    width: auto;
+    height: 100%;
+    margin-left: -70px;
+}
+
+/* Portrait Image Cropping */
+
+.service .circular-portrait{
+    display: inline-block;
+    position: relative;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.3rem solid;
+}
+
+.service .circular-portrait img{
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+}
+
+
+/*  Testimonials  */
+
+.carousel-item .img-box{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-item .client-comment{
+    width: 90%;
+    font-size: 0.8rem;
+    color: white;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* Contact */
+
+.contact-section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.2rem 0rem;
+}
+.contact-section h3{
+    padding-bottom: 1rem;
+}
+
+.full-name{
+    padding-bottom: 1rem;
+}
+
+.contact-detail{
+    padding-bottom: 1.5rem;
+}
+
+#contact .btn{
+    background-color: lime;
+    border-color: lime;
+    padding: 0rem 2rem;
+}
+
+#contact .btn:hover{
+    background-color: limegreen;
+    border-color: limegreen;
+    padding: 0rem 2rem;
+}
+
+#contact .fab{
+    color: limegreen;
+}
+
+#contact .fab:hover{
+    color: lime;
+}
+
+#contact .contact-form-wrapper{
+    
+}
+
 }
