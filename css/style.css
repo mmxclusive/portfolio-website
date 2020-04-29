@@ -89,7 +89,7 @@ body{
 }
 
 .section-content h1{
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-bottom: 2rem;
 }
 
@@ -99,6 +99,9 @@ body{
     margin-bottom: 1rem;
 }
 
+.section-content p{
+    font-size: 1.1rem;
+}
 
 /* About me Section */
 
@@ -213,8 +216,15 @@ body{
 
 .contact-section{
     color: white;
-    height: 100vh;
+    height: 100%;
 }
+
+
+.contact-form-wrapper{
+    padding-top: 7rem;
+
+}
+
 
 
 .contact-section h2{
@@ -264,7 +274,7 @@ body{
 
 
 
-                /* ------- Media Queries ---------- */
+                /* ------- Media Queries iPad---------- */
 
 @media screen and (max-width: 767px) {
 
@@ -277,7 +287,7 @@ body{
     
     .section-content h3{
         font-size: 1.5rem;
-        color:lime;
+        color:red;
         margin-bottom: 0.7rem;
     }
 
@@ -317,6 +327,7 @@ body{
     }
 
     /* Landscape Image Cropping */
+
 .service .circular-landscape{
     display: inline-block;
     position: relative;
@@ -370,48 +381,150 @@ body{
     text-align: center;
 }
 
-
-/* Contact */
-
-.contact-section h2{
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1.2rem 0rem;
-}
-.contact-section h3{
-    padding-bottom: 1rem;
+.first-bg{
+           
+    min-height: 400px;
 }
 
-.full-name{
-    padding-bottom: 1rem;
+.second-bg{
+ 
+    min-height: 400px;
 }
 
-.contact-detail{
-    padding-bottom: 1.5rem;
+
+
+
 }
 
-#contact .btn{
-    background-color: lime;
-    border-color: lime;
-    padding: 0rem 2rem;
-}
 
-#contact .btn:hover{
-    background-color: limegreen;
-    border-color: limegreen;
-    padding: 0rem 2rem;
-}
+/* ---------- Media Queries for iPhone X--------- */
 
-#contact .fab{
-    color: limegreen;
-}
+@media screen and (max-width: 376px) and (max-height: 813px) {
 
-#contact .fab:hover{
-    color: lime;
-}
-
-#contact .contact-form-wrapper{
+    .section-content h1{
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+    }
     
-}
+    .section-content h3{
+        font-size: 1.5rem;
+        color: blue;
+        margin-bottom: 0.7rem;
+    }
+
+
+      /*  Services  */
+
+
+    #services .container-fluid{
+
+        padding-top: 2rem;
+    }
+
+
+    #services .service{
+        color: black;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    
+    .service h3{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        white-space: nowrap;
+    }
+
+    /* Landscape Image Cropping */
+
+.service .circular-landscape{
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.2rem solid;
 
 }
+    
+    
+.service .circular-landscape img{
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+/* Portrait Image Cropping */
+
+.service .circular-portrait{
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: white 0.2rem solid;
+}
+
+.service .circular-portrait img{
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* Media Queries for iPhone 6 and lower */
+
+@media screen and (max-width: 376px) and (max-height: 700px) {
+
+        /* Home Page */
+
+        .section-content h1{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .section-content h3{
+            font-size: 1.3rem;
+            color: yellow;
+            margin-bottom: 0.7rem;
+        }
+    
+        #home p{
+            font-size: 0.8rem;
+        }
+    
+
+        /* Fixed Backgrounds */
+
+        
+        .first-bg{
+           
+            min-height: 300px;
+        }
+
+        .second-bg{
+         
+            min-height: 300px;
+        }
+
+
+
+     
+}
+
+        
