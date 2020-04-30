@@ -27,9 +27,9 @@ body{
     font-weight: 700;
 }
 
-.nav-link.active,
+/* .nav-link.active, */
 .nav-link:hover{
-    color: lime !important;
+    color: #feb062 !important;
     
 }
 
@@ -79,6 +79,7 @@ body{
 
 /* Content Styles */
 
+
 .section-content{
     color: white;
     height: 100vh;
@@ -95,7 +96,7 @@ body{
 
 .section-content h3{
     font-size: 2rem;
-    color:lime;
+    color: #feb062;
     margin-bottom: 1rem;
 }
 
@@ -115,7 +116,7 @@ body{
 }
 
 .aboutme-text ul{
-    color: lime;
+    color: #feb062;
     padding-top: 1rem;
 }
 
@@ -146,7 +147,7 @@ body{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    border: white 0.5rem solid;
+    border: black 0.1rem solid;
 }
 
 .service .circular-landscape img{
@@ -164,7 +165,7 @@ body{
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-    border: white 0.5rem solid;
+    border: BLACK 0.1rem solid;
 }
 
 .service .circular-portrait img{
@@ -205,14 +206,20 @@ body{
 
 #testimonials .client-comment-underline{
     width: 80%;
-    border-top: lime 1px solid;
+    border-top: #feb062 1px solid;
 }
 
 #testimonials i{
-    color: lime;
+    color: #feb062;
 }
 
 /* Contact area styles */
+
+#contact{
+    border-top: 0;
+    padding-top: 0;
+}
+
 
 .contact-section{
     color: white;
@@ -221,10 +228,9 @@ body{
 
 
 .contact-form-wrapper{
-    padding-top: 7rem;
+    padding-top: 5rem;
 
 }
-
 
 
 .contact-section h2{
@@ -244,23 +250,15 @@ body{
 }
 
 #contact .btn{
-    background-color: lime;
-    border-color: lime;
+    background-color: #d57515;
+    border-color: #d57515;
     padding: 0rem 2rem;
 }
 
 #contact .btn:hover{
-    background-color: limegreen;
-    border-color: limegreen;
+    background-color: #feb062;
+    border-color: #feb062;
     padding: 0rem 2rem;
-}
-
-#contact .fab{
-    color: limegreen;
-}
-
-#contact .fab:hover{
-    color: lime;
 }
 
 
@@ -287,7 +285,6 @@ body{
     
     .section-content h3{
         font-size: 1.5rem;
-        color:red;
         margin-bottom: 0.7rem;
     }
 
@@ -303,12 +300,6 @@ body{
         padding-top: 1rem;
     }
     
-    #about .fab{
-        color: limegreen;
-    }
-    #about .fab:hover{
-        color: lime;
-    }
 
 
     /*  Services  */
@@ -408,7 +399,6 @@ body{
     
     .section-content h3{
         font-size: 1.5rem;
-        color: blue;
         margin-bottom: 0.7rem;
     }
 
