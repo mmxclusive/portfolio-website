@@ -199,26 +199,21 @@
     <div class="container contact-form-wrapper">
         <div class="row">
             <div class="col-sm-6 form-area">
-                <form>
+                <form action="contact.php" method="post">
                     <div class="form-row full-name">
                         <div class="col">
-                            <label for="firstname">First Name:</label>
-                          <input id="firstname" type="text" class="form-control form" placeholder="First name">
-                        </div>
-                        <div class="col">
-                            <label for="lastname">Last Name:</label>
-                          <input id="lastname" type="text" class="form-control" placeholder="Last name">
+                          <input id="fullname" name="full-name" type="text" class="form-control" placeholder="Full Name" required>
                         </div>
                     </div>
+                    <br>
                     <div class="form-group">
-                      <label for="exampleFormControlInput1">Email address:</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <input type="email" name="e-mail" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
                     </div>
+                    <br>
                     <div class="form-group">
-                      <label for="exampleFormControlTextarea1">Message:</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Please write message here..." rows="3"></textarea>
+                      <textarea class="form-control" name="message" id="exampleFormControlTextarea1" placeholder="Please write message here..." rows="3" required></textarea>
                     </div>
-                    <button class="btn btn-primary btn-lg float-right" type="submit">Send</button>
+                    <button class="btn btn-primary btn-lg" name="submit" type="submit">Send Message</button>
                 </form>
             </div>
             <div id="contact-details" class="col-sm-6 text-center">

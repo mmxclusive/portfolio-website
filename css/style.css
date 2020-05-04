@@ -241,18 +241,28 @@ body{
     padding-bottom: 1rem;
 }
 
-.full-name{
-    padding-bottom: 1rem;
-}
 
 .contact-detail{
     padding-bottom: 1.5rem;
 }
 
+#contact .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: #e2e2e2 2px solid;
+    color: #fff;
+}
+
 #contact .btn{
     background-color: #d57515;
-    border-color: #d57515;
-    padding: 0rem 2rem;
+    border-color: transparent;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 100%;
+    
 }
 
 #contact .btn:hover{
