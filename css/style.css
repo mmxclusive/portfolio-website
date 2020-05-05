@@ -106,112 +106,31 @@ body{
 
 /* About me Section */
 
-.aboutme-text h4{
+#about .aboutme-text{
     padding-top: 2rem;
-    padding-bottom: 1rem;
-}
-
-.aboutme-text p{
-    padding-left: 1rem;
-}
-
-.aboutme-text ul{
-    color: #feb062;
-    padding-top: 1rem;
 }
 
 
-/* Services */
+/* Projects */
 
 
-#services .service{
+#projects{
+    height: 400px;
 
-    color: black;
-    margin-top: 2rem ;
-    margin-bottom: 2rem;
-}
-
-.service h3{
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    white-space: nowrap;
 }
 
 
 
-/* Landscape Image Cropping */
-.service .circular-landscape{
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: black 0.1rem solid;
-}
 
-.service .circular-landscape img{
-    width: auto;
-    height: 100%;
-    margin-left: -100px;
-}
 
-/* Portrait Image Cropping */
+/* Blog Styles */
 
-.service .circular-portrait{
-    display: inline-block;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: BLACK 0.1rem solid;
-}
-
-.service .circular-portrait img{
-    width: 100%;
-    height: auto;
-    margin-top: -25%;
+#blog{
+    height: 400px;
 }
 
 
 
-/* Testimonials Styles */
-
-.carousel-item{
-    padding: 80px;
-}
-
-.carousel-item .img-box{
-    width: 150px;
-    height: 150px;
-}
-
-.carousel-item .img-box img{
-
-    width: 100%;
-    height: 100%;
-    border: honeydew 0.1rem solid;
-    border-radius: 50%;
-
-}
-
-.carousel-item .client-comment{
-    width: 70%;
-    color: white;
-    margin-top: 1rem;
-    display: inline-block;
-    text-align: center;
-}
-
-#testimonials .client-comment-underline{
-    width: 80%;
-    border-top: #feb062 1px solid;
-}
-
-#testimonials i{
-    color: #feb062;
-}
 
 /* Contact area styles */
 
@@ -305,6 +224,7 @@ body{
 
     /* About me */
 
+
     .aboutme-text ul{
         font-size: 0.9rem;
         padding-top: 1rem;
@@ -312,75 +232,19 @@ body{
     
 
 
-    /*  Services  */
+    /*  Projects  */
 
-    #services .service{
-        color: black;
-        margin-top: 2rem;
-        margin-bottom: 1rem;
-    }
-    
-    .service h3{
-        font-size: 1.7rem;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        white-space: nowrap;
+    #projects{
+        height: 300px;
     }
 
-    /* Landscape Image Cropping */
+  
 
-.service .circular-landscape{
-    display: inline-block;
-    position: relative;
-    width: 170px;
-    height: 170px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: white 0.3rem solid;
+    /*  Blog  */
 
-}
-    
-    
-.service .circular-landscape img{
-    width: auto;
-    height: 100%;
-    margin-left: -70px;
-}
-
-/* Portrait Image Cropping */
-
-.service .circular-portrait{
-    display: inline-block;
-    position: relative;
-    width: 170px;
-    height: 170px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: white 0.3rem solid;
-}
-
-.service .circular-portrait img{
-    width: 100%;
-    height: auto;
-    margin-top: -25%;
-}
-
-
-/*  Testimonials  */
-
-.carousel-item .img-box{
-    width: 100px;
-    height: 100px;
-}
-
-.carousel-item .client-comment{
-    width: 90%;
-    font-size: 0.8rem;
-    color: white;
-    margin-top: 1rem;
-    display: inline-block;
-    text-align: center;
-}
+    #blog{
+        height: 300px;
+    }
 
 .first-bg{
            
@@ -413,73 +277,19 @@ body{
     }
 
 
-      /*  Services  */
+    /*  Projects  */
 
-
-    #services .container-fluid{
-
-        padding-top: 2rem;
+    #projects{
+        height: 300px;
     }
 
+  
 
-    #services .service{
-        color: black;
-        margin-top: 0rem;
-        margin-bottom: 1rem;
+    /*  Blog  */
+
+    #blog{
+        height: 300px;
     }
-    
-    .service h3{
-        font-size: 1.3rem;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        white-space: nowrap;
-    }
-
-    /* Landscape Image Cropping */
-
-.service .circular-landscape{
-    display: inline-block;
-    position: relative;
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: white 0.2rem solid;
-
-}
-    
-    
-.service .circular-landscape img{
-    width: auto;
-    height: 100%;
-    margin-left: -50px;
-}
-
-/* Portrait Image Cropping */
-
-.service .circular-portrait{
-    display: inline-block;
-    position: relative;
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border-radius: 50%;
-    border: white 0.2rem solid;
-}
-
-.service .circular-portrait img{
-    width: 100%;
-    height: auto;
-    margin-top: -25%;
-}
-
-
-
-
-
-
-
-
 
 }
 
