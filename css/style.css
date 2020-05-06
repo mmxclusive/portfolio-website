@@ -106,9 +106,227 @@ body{
 
 /* About me Section */
 
+#about{
+    background-color: #161511;
+}
+
 #about .aboutme-text{
+    color: white;
     padding-top: 2rem;
 }
+
+#about .skills{
+    position: relative;
+    min-width: 100%;
+}
+
+#about h3{
+    text-align: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+/* Progress bar styles */
+
+#about .progress{
+
+    height: 1.2rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border: 0.1rem #d57515 solid;
+    
+}
+
+#about h6{
+    color: white;
+}
+
+
+
+#about .progress-bar{
+    
+    background-color: #d57515;
+}
+
+
+/*  Animate on page load */
+#about .html-bar{
+
+    animation: html-bar 2s;
+}
+@keyframes html-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+}
+
+
+
+
+#about .css-bar{
+
+    animation: css-bar 2s;
+}
+@keyframes css-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%
+    }
+}
+
+
+#about .js-bar{
+
+    animation: js-bar 2s;
+}
+@keyframes js-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 48%
+    }
+}
+
+
+
+#about .jquery-bar{
+
+    animation: jquery-bar 2s;
+}
+@keyframes jquery-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%
+    }
+}
+
+
+
+#about .bootstrap-bar{
+
+    animation: bootstrap-bar 2s;
+}
+@keyframes bootstrap-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 87%
+    }
+}
+
+
+
+#about .react-bar{
+
+    animation: react-bar 2s;
+}
+@keyframes react-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%
+    }
+}
+
+
+
+#about .python-bar{
+
+    animation: python-bar 2s;
+}
+@keyframes python-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%
+    }
+}
+
+
+
+
+#about .django-bar{
+
+    animation: django-bar 2s;
+}
+@keyframes django-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%
+    }
+}
+
+
+#about .wordpress-bar{
+
+    animation: wordpress-bar 2s;
+}
+@keyframes wordpress-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%
+    }
+}
+
+
+#about .mysql-bar{
+
+    animation: mysql-bar 2s;
+}
+@keyframes mysql-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%
+    }
+}
+
+
+
+#about .adobe-bar{
+
+    animation: adobe-bar 2s;
+}
+@keyframes adobe-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%
+    }
+}
+
+
+#about .photography-bar{
+
+    animation: photography-bar 2s;
+}
+@keyframes photography-bar{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+}
+
+
 
 
 /* Projects */
