@@ -150,7 +150,7 @@ body{
 
 
 /*  Animate on page load */
-#about .html-bar{
+.html-bar{
 
     animation: html-bar 2s;
 }
@@ -166,7 +166,7 @@ body{
 
 
 
-#about .css-bar{
+.css-bar{
 
     animation: css-bar 2s;
 }
@@ -180,7 +180,7 @@ body{
 }
 
 
-#about .js-bar{
+.js-bar{
 
     animation: js-bar 2s;
 }
@@ -195,7 +195,7 @@ body{
 
 
 
-#about .jquery-bar{
+.jquery-bar{
 
     animation: jquery-bar 2s;
 }
@@ -210,7 +210,7 @@ body{
 
 
 
-#about .bootstrap-bar{
+.bootstrap-bar{
 
     animation: bootstrap-bar 2s;
 }
@@ -225,7 +225,7 @@ body{
 
 
 
-#about .react-bar{
+.react-bar{
 
     animation: react-bar 2s;
 }
@@ -240,7 +240,7 @@ body{
 
 
 
-#about .python-bar{
+.python-bar{
 
     animation: python-bar 2s;
 }
@@ -256,7 +256,7 @@ body{
 
 
 
-#about .django-bar{
+.django-bar{
 
     animation: django-bar 2s;
 }
@@ -270,7 +270,7 @@ body{
 }
 
 
-#about .wordpress-bar{
+.wordpress-bar{
 
     animation: wordpress-bar 2s;
 }
@@ -284,7 +284,7 @@ body{
 }
 
 
-#about .mysql-bar{
+.mysql-bar{
 
     animation: mysql-bar 2s;
 }
@@ -299,7 +299,7 @@ body{
 
 
 
-#about .adobe-bar{
+.adobe-bar{
 
     animation: adobe-bar 2s;
 }
@@ -313,7 +313,7 @@ body{
 }
 
 
-#about .photography-bar{
+.photography-bar{
 
     animation: photography-bar 2s;
 }
