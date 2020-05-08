@@ -47,7 +47,7 @@ body{
 
 /* Background Image Styles */
 
-.home-bg, .first-bg, .second-bg{
+.home-bg, .first-bg, .second-bg, .third-bg{
     position: relative;
     background-position: center;
     background-size: cover;
@@ -67,15 +67,22 @@ body{
 }
 
 .first-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/silver-and-black-laptop-computer-1229861.jpg);
-    min-height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../images/black-twin-bell-alarm-desk-clock-on-table-714701.jpg);
+    min-height: 450px;
 }
+
 
 .second-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
-    min-height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/computer-desk-196658.jpg);
+    min-height: 450px;
 }
 
+
+
+.third-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
+    min-height: 450px;
+}
 
 /* Content Styles */
 
@@ -104,6 +111,11 @@ body{
     font-size: 1.1rem;
 }
 
+
+
+
+
+
 /* About me Section */
 
 #about{
@@ -120,15 +132,27 @@ body{
     min-width: 100%;
 }
 
-#about h3{
-    text-align: center;
-    color: white;
-    margin-bottom: 2rem;
+
+
+
+
+/* Skills Section */
+
+#skills{
+    background-color: #161511;
 }
 
-/* Progress bar styles */
+#skills h3{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
 
-#about .progress{
+}
+
+
+
+#skills .progress{
 
     height: 1.2rem;
     margin-bottom: 1rem;
@@ -137,215 +161,19 @@ body{
     
 }
 
-#about h6{
+#skills h6{
     color: white;
 }
 
 
 
-#about .progress-bar{
+#skills .progress-bar{
     
     background-color: #d57515;
 }
 
 
-/*  Animate on page load */
-.html-bar{
 
-    animation: html-bar 2s;
-}
-@keyframes html-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%
-    }
-}
-
-
-
-
-.css-bar{
-
-    animation: css-bar 2s;
-}
-@keyframes css-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 85%
-    }
-}
-
-
-.js-bar{
-
-    animation: js-bar 2s;
-}
-@keyframes js-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 48%
-    }
-}
-
-
-
-.jquery-bar{
-
-    animation: jquery-bar 2s;
-}
-@keyframes jquery-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 65%
-    }
-}
-
-
-
-.bootstrap-bar{
-
-    animation: bootstrap-bar 2s;
-}
-@keyframes bootstrap-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 87%
-    }
-}
-
-
-
-.react-bar{
-
-    animation: react-bar 2s;
-}
-@keyframes react-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%
-    }
-}
-
-
-
-.python-bar{
-
-    animation: python-bar 2s;
-}
-@keyframes python-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 70%
-    }
-}
-
-
-
-
-.django-bar{
-
-    animation: django-bar 2s;
-}
-@keyframes django-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 60%
-    }
-}
-
-
-.wordpress-bar{
-
-    animation: wordpress-bar 2s;
-}
-@keyframes wordpress-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 50%
-    }
-}
-
-
-.mysql-bar{
-
-    animation: mysql-bar 2s;
-}
-@keyframes mysql-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 65%
-    }
-}
-
-
-
-.adobe-bar{
-
-    animation: adobe-bar 2s;
-}
-@keyframes adobe-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 75%
-    }
-}
-
-
-.photography-bar{
-
-    animation: photography-bar 2s;
-}
-@keyframes photography-bar{
-    0%{
-        width: 0%;
-    }
-    100%{
-        width: 90%
-    }
-}
-
-
-
-
-/* Projects */
-
-
-#projects{
-    height: 400px;
-
-}
-
-
-
-
-
-/* Blog Styles */
-
-#blog{
-    height: 400px;
-}
 
 
 

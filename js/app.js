@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
 
     var typed = new Typed(".typing-effect",{
         strings: ["Muhammed Adelodun","a Web Developer","a Professional Photographer", "a Visual Story Teller","a Business Man"],
@@ -14,17 +15,8 @@ $(document).ready(function(){
         $('#contact-details').remove()
       };
 
+      
 
-
-    //   $(window).scroll(function() {
-    //     var hT = $('#skills').offset().top,
-    //         hH = $('#skills').outerHeight(),
-    //         wH = $(window).height(),
-    //         wS = $(this).scrollTop();
-    //     if (wS > (hT+hH-wH)){
-    //         $('#about.progress-bar').addClass('.html-bar');
-    //     }
-    //  });
 
   });
 
