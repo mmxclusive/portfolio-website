@@ -67,20 +67,20 @@ body{
 }
 
 .first-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../images/black-twin-bell-alarm-desk-clock-on-table-714701.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/black-twin-bell-alarm-desk-clock-on-table-714701.jpg);
     min-height: 450px;
 }
 
 
 .second-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/computer-desk-196658.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/computer-desk-196658.jpg);
     min-height: 450px;
 }
 
 
 
 .third-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background.jpg);
     min-height: 450px;
 }
 
