@@ -66,23 +66,25 @@ body{
     min-height: 100%;
 }
 
+
 .first-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/black-twin-bell-alarm-desk-clock-on-table-714701.jpg);
-    min-height: 450px;
-}
-
-
-.second-bg{
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/computer-desk-196658.jpg);
     min-height: 450px;
 }
 
 
-
-.third-bg{
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/background.jpg);
+.second-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/black-twin-bell-alarm-desk-clock-on-table-714701.jpg);
     min-height: 450px;
 }
+
+
+.third-bg{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../images/background.jpg);
+    min-height: 450px;
+}
+
+
 
 /* Content Styles */
 
@@ -278,29 +280,22 @@ body{
     
 
 
-    /*  Projects  */
-
-    #projects{
-        height: 300px;
-    }
-
-  
-
-    /*  Blog  */
-
-    #blog{
-        height: 300px;
-    }
-
-.first-bg{
+    .first-bg{
            
-    min-height: 400px;
-}
+        min-height: 400px;
+    }
 
-.second-bg{
+    .second-bg{
  
-    min-height: 400px;
-}
+        min-height: 400px;
+
+    }
+
+    .third-bg{
+
+        min-height: 400px;
+
+    }
 
 
 
@@ -323,19 +318,7 @@ body{
     }
 
 
-    /*  Projects  */
 
-    #projects{
-        height: 300px;
-    }
-
-  
-
-    /*  Blog  */
-
-    #blog{
-        height: 300px;
-    }
 
 }
 
@@ -356,7 +339,6 @@ body{
         
         .section-content h3{
             font-size: 1.3rem;
-            color: yellow;
             margin-bottom: 0.7rem;
         }
     
@@ -375,6 +357,11 @@ body{
 
         .second-bg{
          
+            min-height: 300px;
+        }
+
+        .third-bg{
+
             min-height: 300px;
         }
 
