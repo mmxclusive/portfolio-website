@@ -249,12 +249,14 @@ body{
 
 
 
-                /* ------- Media Queries iPad---------- */
 
-@media screen and (max-width: 767px) {
-
-    /* Home Page */
-
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
     .section-content h1{
         font-size: 2rem;
         margin-bottom: 2rem;
@@ -279,34 +281,111 @@ body{
     }
     
 
+    /* Contact Area */
 
-    .first-bg{
-           
-        min-height: 400px;
-    }
+    #contact > div:nth-child(1) > h2{
 
-    .second-bg{
- 
-        min-height: 400px;
-
-    }
-
-    .third-bg{
-
-        min-height: 400px;
-
+        padding-top: 6rem;
     }
 
 
+    .first-bg, .second-bg, .third-bg{
+
+        display: none;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .section-content h1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .section-content h3{
+        font-size: 1.5rem;
+        margin-bottom: 0.7rem;
+    }
+
+    #home p{
+        font-size: 1rem;
+    }
 
 
-}
+    /* About me */
 
 
-/* ---------- Media Queries for iPhone X--------- */
+    .aboutme-text ul{
+        font-size: 0.9rem;
+        padding-top: 1rem;
+    }
+    
 
-@media screen and (max-width: 376px) and (max-height: 813px) {
+    /* Contact Area */
 
+    #contact > div:nth-child(1) > h2{
+
+        padding-top: 6rem;
+    }
+
+
+    .first-bg, .second-bg, .third-bg{
+
+        display: none;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    #contact-details{
+
+        padding-top: 3rem;
+    }
+
+
+    .contact-section h2{
+
+        text-align: center;
+        padding: 0.5rem;
+    
+    }
+
+
+    #contact > div.container.contact-form-wrapper{
+
+        padding-top: 1rem;
+    }
+
+    .first-bg, .second-bg, .third-bg{
+
+        display: none;
+    }
+
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+
+    
     .section-content h1{
         font-size: 1.7rem;
         margin-bottom: 2rem;
@@ -317,8 +396,80 @@ body{
         margin-bottom: 0.7rem;
     }
 
+    #contact-details{
+        display: none;
+    }
+
+    .first-bg, .second-bg, .third-bg{
+
+        display: none;
+    }
 
 
+    
+  }
+
+
+
+/* iPad Pro (Landscape) Remove Parallax effect */
+
+@media (min-width: 1366px) and (min-height: 1024px) and (orientation: landscape){
+
+    .first-bg, .second-bg, .third-bg{
+
+        display: none;
+    }
+
+}
+
+
+
+/* iPhone X (Landscape) */
+
+@media only screen 
+    and (max-height : 414px) 
+    and (min-width : 812px)
+    and (orientation: Landscape){
+
+        #contact > div:nth-child(1) > h2{
+
+            padding: 0.5rem 0;
+
+        }
+
+        #contact-details{
+            padding-top: 2rem;
+        }
+
+
+        #contact > div.container.contact-form-wrapper{
+
+            padding-top: 0;
+
+        }
+
+
+    }
+
+
+
+
+
+/* iPhone 5 (Landscape)*/
+
+@media only screen 
+and (max-device-height: 320px)
+and (max-device-width: 568px)
+and (-webkit-device-pixel-ratio: 2) 
+and (orientation:landscape){
+
+    #contact > div:nth-child(1) > h2{
+        display: none;
+    }
+
+    #contact-details{
+        display: none;
+    }
 
 }
 
@@ -326,48 +477,18 @@ body{
 
 
 
-/* Media Queries for iPhone 6 and lower */
+  /* iPhone 4 */
 
-@media screen and (max-width: 376px) and (max-height: 700px) {
+  @media only screen and (min-device-width: 320px)
+   and (max-device-width: 480px) 
+   and (-webkit-device-pixel-ratio: 2){
 
-        /* Home Page */
+    #contact > div.container.contact-form-wrapper{
 
-        .section-content h1{
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        
-        .section-content h3{
-            font-size: 1.3rem;
-            margin-bottom: 0.7rem;
-        }
+        padding-top: 1rem;
+    }
     
-        #home p{
-            font-size: 0.8rem;
-        }
-    
-
-        /* Fixed Backgrounds */
-
-        
-        .first-bg{
-           
-            min-height: 300px;
-        }
-
-        .second-bg{
-         
-            min-height: 300px;
-        }
-
-        .third-bg{
-
-            min-height: 300px;
-        }
-
-
-
-     
 }
 
-        
+
+

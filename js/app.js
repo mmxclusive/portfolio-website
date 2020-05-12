@@ -11,9 +11,9 @@ $(document).ready(function(){
         startDelay:1000
     });
 
-    if($(window).width() <= 415){
-        $('#contact-details').remove()
-      };
+    // if($(window).width() <= 415){
+    //     $('#contact-details').remove()
+    //   };
 
       
 
